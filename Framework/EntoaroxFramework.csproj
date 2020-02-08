@@ -7,15 +7,17 @@
     <TargetFramework>net452</TargetFramework>
 
     <EnableHarmony>true</EnableHarmony>
+
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
-    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="3.0.0-beta.5" />
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Content\placeholder.png">
+    <Content Include="assets\placeholder.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
